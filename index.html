@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="main-div">
+      <h1>My Quiz Application</h1>
+
+      <div class="flex-container">
+        <div class="inner-div">
+          <div class="load-bar">
+            <div class="right"></div>
+            <div class="wrong"></div>
+          </div>
+          <div class="intro">
+            <h4 class="start">Lets Start !</h4>
+            <div class="online-test">
+              <img src="./images/online-test.png" alt="online" />
+            </div>
+            <form>
+              <h4 class="name-head">Enter Your Name:</h4>
+              <input type="text" id="name" class="player" required="required" />
+              <button class="btn start-btn" type="submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="qa-container">
+            <h2 class="question">Here is my question</h2>
+            <ul>
+              <li>
+                <input type="radio" name="answer" id="ans1" class="answer" />
+                <label for="ans1" id="option1">option-1</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="ans2" class="answer" />
+                <label for="ans2" id="option2">option-2</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="ans3" class="answer" />
+                <label for="ans3 " id="option3">option-3</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="ans4" class="answer" />
+                <label for="ans4" id="option4">option-4</label>
+              </li>
+            </ul>
+            <button class="submit btn">Submit</button>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <hr />
+        <p>Developed By : <span>Ahtesham Akram</span></p>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
