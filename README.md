@@ -17,6 +17,6 @@ and in the end show your final result and store your progress in browser's local
 - Asynchronous Javascript (ES6)
 - Bootstrap 5
 
-## Deployment:
+## ![icons8-deployment-40](https://user-images.githubusercontent.com/66128446/158442096-8ff90d02-ae07-4254-b10d-cf2109c05339.png) Deployment:
 - netlify
     https://quiz-app-dev-ak.netlify.app/
