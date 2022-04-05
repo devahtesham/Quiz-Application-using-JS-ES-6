@@ -55,6 +55,11 @@ form {
   border-radius: 2rem;
   margin-top: 1rem;
 }
+form input.invalid {
+  background-color: salmon;
+  border: 2px solid red;
+}
+
 .online-test {
   display: flex;
   justify-content: center;
@@ -224,3 +229,4 @@ h3 {
 .start-btn {
   margin-top: 1rem;
 }
+/* class for js */

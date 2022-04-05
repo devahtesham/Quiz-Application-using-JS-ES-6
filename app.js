@@ -95,7 +95,9 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   player_name = e.target.name.value;
   if (!player_name) {
+    // or we can do like this if(player_name.trim().lenght===0)
     alert("Please Enter Your Name to start this quiz");
+    player.classList.toggle("invalid");
   } else {
     console.log("lets start!");
     console.log(player_name);
